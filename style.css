@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(250, 172, 136, 0.726);
+}
+
+/* headstart */
+
+.top{
+    padding: 0.2em 0em;
+    display: flex;
+    /* font-size: em; */
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.top h1{
+    /* font-size:0.8em ; */
+    /* border: 2px solid black; */
+    animation-name: spin;
+    animation-duration: 5s;
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    animation-iteration-count: infinite
+
+}
+
+@keyframes spin {
+    
+    
+50%{
+    transform: translateX(40px);
+}
+
+    100%{
+        transform: translateX(-40px);
+    }
+   
+    
+}
+
+
+.head{
+    /* border: 2px solid black; */
+    background-color: rgb(202, 142, 142);
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+
+ }
+
+.logo{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        font-size: 1.5em;
+        padding: 0.5em 1em;
+        border-radius: 0px;
+        border: none;
+        outline: none;
+        /* border: 2px solid black; */
+        background-color: black;
+        color: rgb(202, 142, 142);
+        font-weight: 500;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(202, 142, 142);
+        border: 2px solid black;
+        color: black;
+    }
+    button:active{
+        background-color: black;
+        color: rgb(202, 142, 142);
+    }
+}
+
+
+
+.menu img{
+    display: none;
+}
+
+
+.headimg{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* headfinish*/
+
+/* navstart */
+
+.main nav{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 1em 0em;
+    background-color: rgba(250, 172, 136, 0.726); 
+
+   
+    
+}
+.main nav ul {
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid black; */
+}
+
+.main nav ul li{
+    list-style-type: none;
+    /* font-size: 1.5em; */
+    font-weight: 800;
+    border: none;
+    outline: none;
+    /* padding: 0.3em 2em; */
+    /* padding: 1em 0em; */
+    /* border: 2px solid black; */
+    /* background-color: aliceblue; */
+}
+.main nav ul li:hover{
+    background-color: black;
+    /* color: rgba(250, 172, 136, 0.726); */
+
+}
+
+.main a{
+    color: black;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    padding: 0em 1em;
+    font-size: 2em;
+    /* background-color: aliceblue; */
+
+}
+.main a:hover{
+    /* text-decoration: underline; */
+    color: rgba(250, 172, 136, 0.726);  
+    border: none;
+    outline: none;   
+}
+.main a:active{
+    color: black;
+    background-color: rgba(250, 172, 136, 0.726);
+    border: none;
+    outline: none;
+}
+
+.sidemenu{
+    display: none;
+}
+
+.sidemenu{
+    display: none;
+}
+/* navfinish */
+
+
