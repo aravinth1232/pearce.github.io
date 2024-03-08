@@ -324,3 +324,44 @@ body{
 .inside i{
     font-size: 36px;
 }
+
+
+.foods{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+
+    padding: 1em 1em;
+    
+}
+
+.p1{
+    border: 2px solid black;
+    width: 30%;
+    border-radius:10px ;
+    /* padding: 1em 0em; */
+}
+
+.fpics{
+    /* border: 2px solid black; */
+    background-image: url("https://img.freepik.com/free-psd/idli-isolated-transparent-background_191095-40262.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    width: 100%;
+    height: 60vh;
+    border-radius:10px ;   
+    
+}
+.fname{
+    border: 2px solid black;
+    border-radius:10px ;
+    padding: 0.5em 0em;
+    display: flex;
+    justify-content: space-around;
+}
