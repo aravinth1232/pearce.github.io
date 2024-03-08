@@ -277,3 +277,50 @@ body{
 .grab a{
     text-decoration: none;
 }
+
+
+/* product */
+
+.search{
+    width: auto;
+    /* width: fit-content; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    align-items: center;
+    padding: 1em 0em;
+}
+.inside{
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 1em ;
+}
+
+.inside input{
+    width: 100%;
+    font-size: 2em;
+    padding: 0em 0.5em 0em 0.5em;
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: stretch;
+}
+
+.inside input:hover{
+    cursor: pointer;
+}
+
+.inside input:focus{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.inside i{
+    font-size: 36px;
+}

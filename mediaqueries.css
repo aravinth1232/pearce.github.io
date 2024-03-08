@@ -164,10 +164,31 @@
 .line h1:nth-child(2){
     padding: 0.5em 0em 1.5em 0em;
     font-size: 1.2em;
+
 }
 
 .grab button{
     font-size: 1.5em;
+}
+
+
+
+.inside{
+    width: 80%;
+    
+    padding: 0.5em 0.5em ;
+}
+
+.inside i{
+    font-size: 20px;
+}
+
+.inside input{
+   
+    font-size: 1.5em;
+   
+    /* border: 2px solid black; */
+    
 }
 
 
