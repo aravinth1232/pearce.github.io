@@ -175,3 +175,65 @@ body{
 /* navfinish */
 
 
+/* about */
+
+
+.about{
+    border: 2px solid black;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1em 0em;
+
+}
+.resimg{
+    /* border: 2px solid black; */
+    background-image: url("https://rishikeshcamps.in/wp-content/uploads/2023/05/restaarant.jpg");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 50%;
+    height: 60vh;
+    border-radius:10px ;
+}
+.resimg img{
+    width: 50%;
+    height: 60%;
+    
+
+}
+
+.resabout{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: stretch;
+}
+
+.line{
+    /* border: 2px solid black; */
+}
+
+.line h1{
+        font-size: 2em;
+        padding: 0em 0em 1em 0em;
+    }
+.line h1:nth-child(2){
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.grab{
+    border: 2px solid black;
+
+}
