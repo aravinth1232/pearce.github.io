@@ -7,7 +7,8 @@ const side = document.getElementById("sidemenu")
 
 function on(){
     side.style.display ="flex"
-   
+   side.style.left= "60"
+
     open.style.display = "none"
 
 }
