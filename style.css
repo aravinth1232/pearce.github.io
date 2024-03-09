@@ -351,7 +351,7 @@ body{
 
 .fpics{
     /* border: 2px solid black; */
-    background-image: url("f1.png");
+    background-image: url("./foods/f1.png");
     background-position: center;
     object-fit: cover;
     background-size: 100% 100%;
