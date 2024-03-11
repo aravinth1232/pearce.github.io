@@ -17,3 +17,8 @@ function off(){
     side.style.display ="none"
     open.style.display = "flex"
 }
+
+
+
+
+let search = document.getElementById("search")

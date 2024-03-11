@@ -132,13 +132,14 @@ body{
     font-weight: 800;
     border: none;
     outline: none;
-    /* padding: 0.3em 2em; */
+    padding: 0.3em 1.5em;
     /* padding: 1em 0em; */
     /* border: 2px solid black; */
     /* background-color: aliceblue; */
 }
 .main nav ul li:hover{
-    background-color: black;
+    /* background-color: black; */
+    color: rgb(202, 142, 142);
     /* color: rgba(250, 172, 136, 0.726); */
 
 }
@@ -147,7 +148,7 @@ body{
     color: black;
     text-decoration: none;
     /* border: 2px solid black; */
-    padding: 0em 1em;
+    padding: 0em 0.1em;
     font-size: 2em;
     /* background-color: aliceblue; */
 
@@ -155,6 +156,7 @@ body{
 .main a:hover{
     /* text-decoration: underline; */
     color: rgba(250, 172, 136, 0.726);  
+    color: black;
     border: none;
     outline: none;   
 }
@@ -164,6 +166,29 @@ body{
     border: none;
     outline: none;
 }
+
+.hike{
+    position: relative;
+
+}
+
+.hike::after{
+    /* border: 2px solid black; */
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    transform: scaleX(0); 
+    transition: all 0.5s; 
+}
+
+.hike:hover::after{
+    transform: scaleX(1);
+}
+
 
 .sidemenu{
     display: none;
@@ -313,13 +338,14 @@ body{
 }
 
 .inside input:hover{
-    cursor: pointer;
+    cursor:text;
 }
 
 .inside input:focus{
     border: none;
     outline: none;
     cursor: pointer;
+    cursor:text;
 }
 
 .inside i{
