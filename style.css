@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -303,6 +303,59 @@ body{
     text-decoration: none;
 }
 
+/* artivles*/
+
+.info{
+    padding: 1em 0em 0em 0em;
+    background-color: #333;
+}
+
+.info h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 0.5em 0em;
+    color: aliceblue;
+    color: rgb(202, 142, 142);
+
+}
+
+.scroll-container {
+    background-color: #333;
+    background-color: rgba(250, 172, 136, 0.726);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+    width: 600px;
+    height:400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* product */
 
@@ -515,7 +568,4 @@ body{
 .fbut button:active{
     color: rgb(202, 142, 142);
     background-color: black;
-}
-.sidemenu{
-    display: flex;
 }
