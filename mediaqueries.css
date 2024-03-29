@@ -187,6 +187,147 @@
 }
 
 
+
+/* article */
+
+
+
+.info{
+    padding: 1em 0em 0em 0em;
+    background-color: #333;
+}
+
+.info h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0em 0em 0.5em 0em;
+    color: aliceblue;
+    color: rgb(202, 142, 142);
+
+}
+
+.scroll-container {
+    background-color: #333;
+    background-color: rgba(250, 172, 136, 0.726);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0px;
+  }
+  
+  .scroll-container img {
+    padding: 10px 10px 10px 0px ;
+    width: 600px;
+    height:400px;
+  }
+
+
+  .third{
+    
+    /* border: 2px solid black; */
+    padding: 1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center; 
+     align-items: center;
+    
+  }
+  .s1{
+    width: 100%;
+    border: 2px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 1em ;
+    margin: 0em 0em 1em 0em;
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 10px;
+
+    p{
+        color: aliceblue;
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+  }
+
+  .ucon{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 0em 1em 0em;
+
+    h1{
+        font-size: 1.5em;
+        padding: 0.2em;
+        color: bisque;
+    
+    } 
+    
+  }
+
+
+
+
+  .footer{
+
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: #191970;
+
+    h1{
+        font-size: 2em;
+        color: aliceblue;
+    }
+  }
+
+  .icons i{
+    font-size: 30px;
+    padding: 0.8em 0.5em ;
+    color: blue;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   a{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em 0em 0em 0em ;
+    color: aliceblue;
+    text-decoration: none;
+    /* border: 2px solid black; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .search{
     background-color:  rgba(250, 172, 136, 0.726);
 }
@@ -445,4 +586,5 @@ display: none;
 }
 
 
+}
 }
