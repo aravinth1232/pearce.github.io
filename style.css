@@ -375,7 +375,7 @@ body{
     /* padding: 1em 0em; */
 }
 
-.fpics{
+.fpics1{
     /* border: 2px solid black; */
     background-image: url("./foods/f1.png");
     background-position: center;
@@ -386,8 +386,88 @@ body{
     width: 100%;
     height: 50vh;
     border-radius:10px ;   
-    background-color: rgb(202, 142, 142);
-    
+    background-color: rgb(202, 142, 142); 
+}
+.fpics2{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f2.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
+}
+
+.fpics3{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f3.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
+}
+.fpics4{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f4.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
+}
+.fpics5{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f5.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
+}
+
+.fpics6{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f6.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
+}
+
+.fpics7{
+    /* border: 2px solid black; */
+    background-image: url("./foods/f7.png");
+    background-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px ;   
+    background-color: rgb(202, 142, 142); 
 }
 .fname{
     border: 2px solid black;
