@@ -414,6 +414,81 @@ body{
         font-size: 3em;
         color: aliceblue;
     }
+    h1:hover{
+        cursor: pointer;
+    }
+  }
+
+  .icons{
+    /* border: 2px solid black; */
+    /* margin: 1em 0em; */
+    
+
+    i{
+        font-size: 50px;
+        padding: 0.5em ;
+        color: blue;
+    }
+
+    i:nth-child(1){
+        color: rgb(24, 114, 192);
+    }
+    i:nth-child(2){
+        color: rgb(8, 155, 253);
+    }
+    i:nth-child(3){
+        color: rgb(37, 141, 77);
+    
+    }
+    i:nth-child(4){
+        color: rgb(255, 0, 0);
+    }
+  }
+
+  .icons i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.2s;
+  }
+
+  .address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   a{
+    font-size: 1.5em;
+    padding: 1em 0em 0em 0em ;
+    color: aliceblue;
+    text-decoration: none;
+    /* border: 2px solid black; */
+  }
+
+  a:nth-child(2){
+    color: rgba(248, 238, 238, 0.5);
+  }
+
+  }
+
+ .address a:hover{
+    color: aliceblue;
+ }
+
+ .footer{
+
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #191970;
+
+    h1{
+        font-size: 3em;
+        color: aliceblue;
+    }
   }
 
   .icons{
@@ -494,6 +569,8 @@ body{
     transform: scaleX(1);
     color: aliceblue;
 }
+
+
 
 
 
@@ -713,4 +790,148 @@ body{
 .fbut button:active{
     color: rgb(202, 142, 142);
     background-color: black;
+}
+
+
+
+
+/* form */
+
+
+.mainform{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0em;
+    background-image: url("bg2.jpg");
+    background-position:  100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-repeat:no-repeat ;
+    /* background-size: fixed; */
+    background-size: 100% 100%;
+ background-attachment:scroll;
+/* filter: grayscale(50%); */
+/* opacity: 0.9; */
+
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75) inset;
+
+}
+
+.form{
+    width: fit-content;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 1em 2em;
+    backdrop-filter: blur(5px);
+    
+    
+}
+
+.cform{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    padding: 0.5em 0em 0.5em 0em;
+ 
+}
+
+.cform label{
+    font-size: 1.5em;
+    font-weight: 600 ;
+    padding: 0em 1em;
+    
+    /* border: 2px solid black; */
+}
+
+.cname label,
+.cmail label,
+.cphone label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cform input{
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em 0.5em;
+    background-color: transparent;
+    border: 2px solid black;
+   
+
+}
+
+.cform input:focus{
+    outline: none;
+}
+
+
+.cform input:-webkit-autofill,
+.cform input:-webkit-autofill:hover, 
+.cform input:-webkit-autofill:focus, 
+.cform input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    transition: background-color 5000s ease-in-out 0s;
+   
+}
+
+
+
+.cform textarea{
+    font-size: 16px !important;
+    padding: 0.5em 1em !important;
+    background-color: transparent;
+    font-weight: 600;
+    border: 2px solid black;
+} 
+
+.cform textarea:focus{
+    outline: none;
+}
+
+.cbutton{
+    /* border: 2px solid white; */
+    justify-content: center;
+    padding: 1em 0em;
+}
+
+
+.cform button{
+
+    /* margin: 1em 0em 1em 0em; */
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    outline: none;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    background-color: black;
+    color: rgb(142, 202, 202);
+    font-weight: 500;
+
+}
+
+
+.cform button:hover{
+    cursor: pointer;
+    background-color: rgb(142, 202, 202);
+    border: 2px solid black;
+    color: black;
+    font-weight: 500;
+}
+.cform button:active{
+    background-color: black;
+    color: rgb(142, 202, 202);
 }
